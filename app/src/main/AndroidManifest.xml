@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Group3EXP"
+        tools:targetApi="31">
+        <activity
+            android:name=".SelectCourse2"
+            android:exported="false" />
+        <activity
+            android:name=".CartPage2"
+            android:exported="false" />
+        <activity
+            android:name=".Consultant"
+            android:exported="false" />
+        <activity
+            android:name=".DATASYSTEM"
+            android:exported="false" />
+        <activity
+            android:name=".ContactFINISH"
+            android:exported="false" />
+        <activity
+            android:name=".Invoicepage"
+            android:exported="false" />
+        <activity
+            android:name=".CARTPAGE"
+            android:exported="false" />
+        <activity
+            android:name=".Credentials"
+            android:exported="false" />
+        <activity
+            android:name=".SPLASHSCREEN11"
+            android:exported="false" />
+        <activity
+            android:name=".LifeSkillPAGE"
+            android:exported="false" />
+        <activity
+            android:name=".LandScapingPage"
+            android:exported="false" />
+        <activity
+            android:name=".SewingPAGE"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAidPAGE"
+            android:exported="false" />
+        <activity
+            android:name=".LifeSkillSplash"
+            android:exported="false" />
+        <activity
+            android:name=".LandscapingSplash"
+            android:exported="false" />
+        <activity
+            android:name=".SewingSplash"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAidSplash"
+            android:exported="false" />
+        <activity
+            android:name=".GardenInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ChildInfo"
+            android:exported="false" />
+        <activity
+            android:name=".CookingInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ChildMingView"
+            android:exported="false" />
+        <activity
+            android:name=".GardenMaintence"
+            android:exported="false" />
+        <activity
+            android:name=".CookingView"
+            android:exported="false" />
+        <activity
+            android:name=".EXP3"
+            android:exported="false" />
+        <activity
+            android:name=".EXP22"
+            android:exported="false" />
+        <activity
+            android:name=".EXP2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

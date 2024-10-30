@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SPLASHSCREEN11">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="433dp"
+        android:layout_height="390dp"
+        android:outlineSpotShadowColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286"
+        app:srcCompat="@drawable/v" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="396dp"
+        android:layout_height="302dp"
+        android:text="Empowering the nation was established in 2018 and offers courses in Johannesburg, hundreds of domestic workers and gardeners have been trained on both the six month long Learnerships and six week Short Skills Training Programmes to empower themselves and can provide more marketable skills."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/SixXXBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 Weeks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/black"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        app:shapeAppearance="@style/Base.Theme.Group3EXP" />
+
+    <Button
+        android:id="@+id/SixMBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 Month"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        app:shapeAppearance="@style/Base.Theme.Group3EXP" />
+
+    <Spinner
+        android:id="@+id/DropDown"
+        android:layout_width="370dp"
+        android:layout_height="118dp"
+        android:background="@drawable/header_block"
+        android:outlineAmbientShadowColor="#020400"
+        android:outlineSpotShadowColor="#070000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <ImageView
+        android:id="@+id/xxxxxxx"
+        android:layout_width="210dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/a" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
